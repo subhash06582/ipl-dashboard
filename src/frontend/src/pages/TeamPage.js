@@ -13,14 +13,14 @@ export const TeamPage = () => {
 
     useEffect(
         () => {
-            const fetchMatches = async () => {
+            const fetchTeam = async () => {
                 console.log(teamName);
                 const response = await fetch(`http://localhost:8080/team/${teamName}`);
                 const data = await response.json();
                 console.log(data);
                 setTeam(data);
             };
-            fetchMatches();
+            fetchTeam();
         },
         [teamName]
     );
