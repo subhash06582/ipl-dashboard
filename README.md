@@ -13,11 +13,15 @@ This is a full Stack Development using Spring Boot and React JS.
 
 ### Team Page
 
-![Team Page Page](/README/team-page.jpg)
+![Team Page Page](/README/team-page.png)
 
 ### Matches Page
 
-![Matches Page](/README/matches-page.jpg)
+![Matches Page](/README/matches-page.png)
+
+### Home Page
+
+![Home Page](/README/home-page.png)
 
 ## Data Set Used
 https://www.kaggle.com/patrickb1912/ipl-complete-dataset-20082020?select=IPL+Matches+2008-2020.csv
