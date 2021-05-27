@@ -9,6 +9,14 @@ This is a full Stack Development using Spring Boot and React JS.
 * HSQL DB
 * React JS
 
+### API Endpoints
+
+|     API        |     URL          |
+| ------------- | ------------- |
+| List of All the Teams playing IPL| http://localhost:8080/team |
+| Team details| http://localhost:8080/team/{teamName} |
+| List of All Match for a team in particular year| http://localhost:8080/team/{teamName}/matches?year={year} |
+
 ## Screenshots
 
 ### Team Page
